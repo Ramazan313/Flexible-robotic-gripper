@@ -4,7 +4,7 @@ import time
 
 ###################################
 webcam = True
-path = 'beyazLevha.jpg'  # Buraya kendi dosya adını yaz
+path = 'beyazLevha.jpg'  
 cap = cv2.VideoCapture(1)
 scale = 26/10  # değeri arttıkça uzunluk azalır
 wP = int(210*scale)
